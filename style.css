@@ -1,0 +1,131 @@
+/*
+    Title: Junior-level JavaScript coding challenge
+    Name: Nur Hidayah
+    Created by: 13/6-19/6/2022
+    Submitted by: 19/6/2022
+
+    source code from: https://www.w3schools.com/css/default.asp
+*/
+
+html, body{
+    margin:0;
+    padding:0;
+    font-family: Verdana, sans-serif;
+    background-color: #eceae4;
+    color: rgb(64,64,64);
+  }
+
+  /* loading styling */
+  .loading {
+    color: #55cbcd;
+    font-weight: 900;
+  }
+
+  /* table styling. source from: https://stackoverflow.com/questions/8423768/freeze-the-top-row-for-an-html-table-only-fixed-table-header-scrolling */
+
+  section {
+    position: relative;
+    padding-top: 37px;
+    background: #97c1a9;
+  }
+  section.positioned {
+    position: absolute;
+    top:100px;
+    left:100px;
+    width:500px;
+    box-shadow: 0 0 15px #333;
+  }
+  .container {
+    overflow-y: auto;
+    height: 400px;
+  }
+  table {
+    border-collapse:collapse;
+    border-spacing: 0;
+    width:60%;
+  }
+  td + td {
+    border-left:1px solid #eee;
+  }
+  td, tr, th {
+    border-bottom:1px solid #eee;
+    background: #c6dbda;
+    color: #000;
+    padding: 10px 25px;
+  }
+  th {
+    height: 0;
+    line-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: transparent;
+    border: none;
+    white-space: nowrap;
+  }
+  th div{
+    position: absolute;
+    background: transparent;
+    color: #fff;
+    padding: 9px 25px;
+    top: 0;
+    margin-left: -25px;
+    line-height: normal;
+    border-left: 1px solid #eee;
+  }
+  th:first-child div{
+    border: none;
+  }
+
+  /* search box styling. source from: https://codepen.io/mihaeltomic/pen/vmwMdm */
+
+  @use postcss-color-function;
+  @use postcss-nested;
+  
+    .search-container {
+          padding-top: 20px;
+      }
+      
+    .search-title {
+          font-size: 22px;
+          font-weight: 900;
+          text-align: center;
+          color: #8fcaca;
+      }
+      
+    .search-input {
+          width: 30%;
+          padding: 12px 24px;
+  
+          background-color: transparent;
+          transition: transform 250ms ease-in-out;
+          font-size: 14px;
+          line-height: 18px;
+          
+          color: #575756;
+          background-color: transparent;
+   
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+          background-repeat: no-repeat;
+          background-size: 18px 18px;
+          background-position: 95% center;
+          border-radius: 50px;
+          border: 1px solid #575756;
+          transition: all 250ms ease-in-out;
+          backface-visibility: hidden;
+          transform-style: preserve-3d;
+          
+          &::placeholder {
+              color: color(#575756 a(0.8));
+              letter-spacing: 1.5px;
+          }
+          
+          &:hover,
+          &:focus {
+              padding: 12px 0;
+              outline: 0;
+              border: 1px solid transparent;
+              border-bottom: 1px solid #575756;
+              border-radius: 0;
+              background-position: 100% center;
+          }
+        }

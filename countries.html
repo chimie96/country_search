@@ -1,0 +1,48 @@
+<!--
+    Title: Junior-level JavaScript coding challenge
+    Name: Nur Hidayah
+    Created by: 13/6-19/6/2022
+    Submitted by: 19/6/2022
+
+    countries.html source code from: https://www.w3schools.com/html/default.asp
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Search Country</title>
+    </head>
+
+    <center>
+    <body>
+        
+        <br /><br />
+        <!-- page loading until table data shown -->
+        <div>
+            <div class="loading" id="loading">
+                <span>Loading...</span>
+            </div>
+        </div>
+
+        <h2 class="search-title">Find your country</h2>
+
+        <!-- filter search -->
+        <div class="search-container"></div>
+            <input type="text" class="search-input" id="search" onkeyup="searchFilter()" placeholder="Search" />
+        </div>
+        <br /><br />
+
+        <section>
+            <div class="container">
+                <!-- table for showing data -->
+                <table id="countries"></table>
+            </div>
+        </section>
+        
+    </body>
+    </center>
+</html>
