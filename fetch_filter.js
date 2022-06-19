@@ -1,7 +1,6 @@
 // Title: Junior-level JavaScript coding challenge
 // Name: Nur Hidayah
 // Created by: 13/6-19/6/2022
-// Submitted by: 19/6/2022
 
 // fetch from RESTful API. source from: restcountries.com
 // display tabular data source code from: https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/
