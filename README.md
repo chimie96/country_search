@@ -1,5 +1,5 @@
 # country_search
-This is a Junior-level JavaScript coding challenge. This website is developed by using simple basic HTML, CSS ad JavaScript.
+This is a Junior-level JavaScript coding challenge. This website is developed by using simple basic HTML, CSS and JavaScript.
 
 ## Description
 This website entitled Search Country is about fetching data from RESTful API. The data are shown in the form of table which are name, capital, region and flag columns. The flag column is displayed by a small image that represents the particular country. Lastly, search bar at the top that filters down the displayed table by searching for name or capital columns.
@@ -25,5 +25,5 @@ This website entitled Search Country is about fetching data from RESTful API. Th
 6. Search filter using JavaScript: https://insidethediv.com/javascript-filter-table-row-single-and-multiple-columns.
 7. CSS source code: https://www.w3schools.com/css/default.asp
 8. Fixed table header CSS coding 1: https://stackoverflow.com/questions/8423768/freeze-the-top-row-for-an-html-table-only-fixed-table-header-scrolling
-Fixed table header CSS coding 2: https://www.geeksforgeeks.org/how-to-make-bootstrap-table-with-sticky-table-head/
-9. Search box CSS: https://codepen.io/mihaeltomic/pen/vmwMdm
+9. Fixed table header CSS coding 2: https://www.geeksforgeeks.org/how-to-make-bootstrap-table-with-sticky-table-head/
+10. Search box CSS: https://codepen.io/mihaeltomic/pen/vmwMdm
