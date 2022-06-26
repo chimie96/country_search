@@ -3,7 +3,7 @@
     Name: Nur Hidayah
     Created by: 13/6-19/6/2022
 
-    countries.html source code from: https://www.w3schools.com/html/default.asp
+    countries.html source code from: https://www.w3schools.com/html/default.asp & https://insidethediv.com/javascript-filter-table-row-single-and-multiple-columns
 -->
 
 <!DOCTYPE html>
@@ -20,54 +20,28 @@
 
 
 <body>
-    <center>
-        <br /><br />
+    <br /><br />
 
-        <button onclick="topFunction()" id="button" title="Go to top"><i class="fa fa-sort-up"></i></button>
+    <button onclick="topFunction()" id="button" title="Go to top"><i class="fa fa-sort-up"></i></button>
 
-        <!-- page loading until table data shown -->
-        <div>
-            <div class="loading" id="loading">
-                <span>Loading...</span>
-            </div>
+    <!-- page loading until table data shown -->
+    <div>
+        <div class="loading" id="loading">
+            <span>Loading...</span>
         </div>
+    </div>
 
-        <h2 class="search-title">Find your country</h2>
+    <h2 class="search-title">Find your country</h2>
 
-        <!-- filter search -->
-        <div class="search-container">
-            <input type="text" class="search-input" id="search" onkeyup="searchFilter()" placeholder="Search" />
-        </div>
-        <br /><br />
+    <!-- filter search -->
+    <div class="search-container">
+        <input type="text" class="search-input" id="search" onkeyup="searchFilter()" placeholder="Search" />
+    </div>
+    <br /><br />
 
-        <!-- table for showing data -->
-        <table class="table table-fixed" id="countries"></table>
-
-    </center>
-
-    <!-- embedded javascript code for go to top button. source: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
-    <script>
-        //Get the button
-        var mybutton = document.getElementById("button");
-
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () { scrollFunction() };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-
+    <!-- table for showing data -->
+    <table class="table table-fixed" id="countries"></table>
+    
 </body>
 
 </html>
