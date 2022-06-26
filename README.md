@@ -27,3 +27,4 @@ This website entitled Search Country is about fetching data from RESTful API. Th
 8. Fixed table header CSS coding 1: https://stackoverflow.com/questions/8423768/freeze-the-top-row-for-an-html-table-only-fixed-table-header-scrolling
 9. Fixed table header CSS coding 2: https://www.geeksforgeeks.org/how-to-make-bootstrap-table-with-sticky-table-head/
 10. Search box CSS: https://codepen.io/mihaeltomic/pen/vmwMdm
+11. Center website using CSS: https://www.w3schools.com/howto/howto_css_center_website.asp
